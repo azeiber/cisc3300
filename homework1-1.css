@@ -1,0 +1,20 @@
+#leftbox {
+    float: left;
+    background: palevioletred;
+    width: 100px;
+    height: 100px;
+}
+
+#middlebox {
+    float: left;
+    background: pink;
+    width: 100px;
+    height: 100px;
+}
+
+#rightbox {
+    float: right;
+    background: lightpink;
+    width: 100px;
+    height: 100px;
+}
