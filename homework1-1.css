@@ -1,0 +1,23 @@
+.allboxes {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 20px;
+}
+
+#leftbox {
+    background: palevioletred;
+    width: 100px;
+    height: 100px;
+}
+
+#middlebox {
+    background: pink;
+    width: 100px;
+    height: 100px;
+}
+
+#rightbox {
+    background: lightpink;
+    width: 100px;
+    height: 100px;
+}

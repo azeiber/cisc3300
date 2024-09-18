@@ -1,0 +1,21 @@
+CISC 3300 SP24 
+Homework 1 Alexa Zeiber
+1. What is HTML? What does it do? 
+HTML is a coding language and it is used to create structure and functionality so that users are able to interact with
+2. What is CSS? What does it do? 
+CSS is a style sheet language that is responsible for the visual aspect of HTML
+3. Access https: //www.fordham.edu/. In your own words, describe how this webpage uses structure to convey meaning and navigation options to the user. 
+The first thing I notice about this webpage is the background showcasing the school itself, which allows users to see exactly what Fordham is. There are top stories layered on top of this image, which shows that these are the most important news at the time since they are on the top. The page is very interactive and allows users to access many different parts of Fordham, such as the different campuses, exploring programs, news, and more.
+4. What is an HTML element? Tag? Attribute? 
+An HTML element is a collection of start and end tags with the content between them, it is the building block of a web page. HTML tags act like containers for information and attributes provide additional information about elements. 
+5. What are the parts of a CSS rule? 
+A CSS rule contains a selector and a declaration.
+6. Explain how CSS rules cascade. 
+When many rules apply to the same element, the more specific rule will take precedence. Also, if there is a rule that applies to the parent, it will apply to the child as well unless otherwise specified due to inheritance. Finally, the last rule will often take precedence over styles declared earlier.
+7. If you have a directory called project-1 that contains two subdirectories, html-files and images. In the html-files directory you have an HTML file called html-1.html that has an img element with a src attribute, write out the value of the src attribute to access an image file called pinecone.jpg in the images directory. 
+<img src="../images/pinecone.jpg" alt="Pinecone Image">
+8. What is the default behavior when submitting a HTML form? 
+The default behavior is that the submit option is typically a button and the form data gets sent to the server based on the action URL and method.
+9. You are the web developer for Berkshire Hathaway. You have been asked to recreate the Berkshire homepage found here: https: //www.berkshirehathaway.com/. Try to get your webpage to resemble the live page as closely as you can. 
+10. Create a webpage with three divs side by side. Each should be 100 pixels wide and tall, give each a separate background color. 
+In addition to the two HTML files, create a homework1.txt fi

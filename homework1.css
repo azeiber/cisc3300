@@ -1,0 +1,36 @@
+#info {
+    width: 100%;        
+    margin: 10px 0; 
+    text-align: center; 
+    color: rgb(33, 33, 118);
+    font-size: small;
+}
+
+#leftbox {
+    float: left;
+    color: rgb(73, 73, 118);
+    width: 50%;
+    line-height:60px;
+}
+
+#rightbox {
+    float: right;
+    color: rgb(73, 73, 118);
+    width: 50%;
+    line-height:60px;
+}
+
+#bottombox {
+    width: 100%;        
+    margin: 10px 0; 
+    text-align: center; 
+    color: rgb(33, 33, 118);
+    font-size: x-small;
+}
+
+#bottombox2 {
+    width: 100%;        
+    margin: 10px 0; 
+    color: rgb(33, 33, 118);
+    font-size: x-small;
+}
