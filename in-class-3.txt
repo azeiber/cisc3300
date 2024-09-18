@@ -1,0 +1,29 @@
+CISC 3300 F24 
+In class assignment 3 
+1. The color property allows you to specify the color of text inside an element. 
+2. Typography can be defined as “the art and technique of arranging type in order to make language visible”. 
+3. The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video>, should be resized to fit its container. 
+4. The absolute CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements. 
+5. Beyond positioning elements we also have access to layout systems which set rules and standards for how a layout should flow and position elements in a more systematic way. 
+6. CSS Flexible Box Layout, commonly known as Flexbox, is a one dimensional CSS web layout model. 
+7. CSS Grid is a two dimensional CSS web layout model. 
+8. A CSS framework is a collection of CSS stylesheets that are prepped and ready to use. 
+9. Let’s make a layout with flexbox: 
+a. Create an html page called in-class-3-flex.html with a div called flex-container, and inside the flex-container div add 4 divs, each with a class of flex-child 
+b. In a css file or style tag create: 
+i. css rule for the flex-child class and set: width: 300px; height: 300px; margin: 10px; background-color: blue; 
+ii. css rule for the flex-container class and set: width: 1000px; border: 1px solid blue; margin: 10px; 
+b. Now let’s define the flex-container as a flex parent with a property of display: flex; c. Notice how our flex children are squished, we need to allow them to wrap, add a css rule for flex-wrap: wrap; You should have 3 300px divs on one row and a fourth on a new row beneath them. 
+10. Let’s make a layout with CSS Grid: 
+a. Create an html page called in-class-3-grid.html with a div called grid-container, and inside the grid-container div add 2 divs, the first with a class of grid-item-1 the second with a class of grid-item-2 
+b. In a css file or style tag create: 
+i. css for the grid-container class: height: 100% 
+ii. css for grid-item-1: background-color: blue; 
+iii. css for grid-item-2: background-color: green; 
+c. Now let’s define some rows and columns for our grid container 
+i. set a css rule for the grid-container class of display: grid; setting it as a grid container. 
+ii. set a css rule for the grid-container class of grid-template-rows: 20% 20% 20% 20% 20%; which will create 5 rows, 20% of the screen height each
+iii. set a css rule for the grid-container class of grid-template-columns: 20% 20% 20% 20% 20%; which will create 5 columns, 20% of the screen width each 
+d. Now let’s decide where to put our grid-item-1: grid-row-start: 1; grid-row-end: 2; grid-column-start: 1; grid-column-end: 6; which will start at the start of row 1 and end at the end of row 2, also start at the beginning of column 1 and end at the end of column 5. 
+e. And for grid-item-2: grid-row-start: 3; grid-row-end: 6; grid-column-start: 4; grid-column-end: 6; which will start at the start of row 3 and end at the end of row 5, also start at the beginning of column 4 and end at the end of column 5. 
+f. You’ve now made a layout that would be impossible in flexbox!
