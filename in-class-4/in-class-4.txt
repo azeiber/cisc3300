@@ -1,0 +1,37 @@
+In certain programming languages the source code is not directly translated by the target
+machine. Instead, a different program, aka the interpreter, reads and executes the code,
+this is called an interpreted language.
+2. Type checking is performed at runtime, means that the type of a variable is allowed to
+change over its lifetime, this is called dynamic typing.
+3. JS for web browser work doesn’t tend to use classes to make objects, and is written in a
+more functional style.
+4. Variables that are block scoped, not declarable use the keyword const
+5. Scope determines the accessibility (visibility) of variables.
+6. Variables assigned with the let keyword are block scoped and not redeclarable.
+7. Functions that can be passed as an argument to another function and called later are
+called callback functions.
+8. Non primitive data types are (almost)all technically objects in memory.
+
+
+9. Make an html page called in-class-4.html and a file called in-class-4.js:
+a. in the html file add html and header elements, and add a script tag that
+references in-class-4.js relatively via its src attribute
+b. in-class-4.js put:
+i. a console.log(“in-class-4.js loaded!”);
+c. now and a second script tag in the html file and:
+i. create a const variable called firstObject and assign to it an object created
+via a literal constructor with a property called name and another property
+called echo. For the value of name put your first namd and for the value of
+echo add a function to console.log your name(remember to use the this
+keyword to access the name property of the object) and call the echo
+method of the firstName object
+ii. after the echo call from the previous question, update the value of the
+name to your last name and call echo again, you should have
+“in-class-4.js loaded!”, “your first name”, “Your last name” as output
+
+10. In the in-class-4.js file:
+a. Make an array with the elements 1,2,3,4,5. Create a for loop and in the code
+block:
+i. If the index is odd console log a string with the index number and if it is
+odd or even, an example: “1 is odd!”, “2 is even!”. Use If statements and
+template literals for this.
