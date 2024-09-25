@@ -14,12 +14,6 @@
     color: white;
 }
 
-@media (max-width: 500px) {
-    .flex-container {
-        flex-direction: column;
-    }
-  }
-
   @media (min-width: 500px) {
     .flex-container {
         flex-direction: row;
