@@ -1,0 +1,18 @@
+1. What is javascript? How does an interpreted programming language differ from a compiled language? Javascript is a dynamic 
+programming language that works well alongside HTML and CSS because it adds interactivity to web pages. Javascript is an 
+interpreted language, which means that the source code is read and run by the interpreter (a different program). Compiled
+languages are directly translated into machine code once compiled.
+2. Contrast dynamically typed programming languages with statically typed ones. And contrast strongly typed programming languages 
+with weakly typed ones. (google these) Dynamically typed languages (like JavaScript) perform type checking at run time, which means
+that the variable type is able to change over time. On the other hand, statically typed languages (like C++) perform type checking
+at compile time, which means that the variable types are known before the program actually runs. Weakly typed languages (like 
+JavaScript) allows variables to be used without specifying their data type. Strongly typed languages (like Java) do not allow variables
+to be used without specifying and a variable's type is enforced and cannot be explicitly converted without declaring and assigning.
+3. What is the difference between var, let, and const when declaring variables in JS? These are all different keywords for variable
+declaration in JavaScript. Var means the variable is redlarable and global and function scoped. Let means that the variable is redlarable
+and block scoped. Const means that the variable is block scoped and not redeclarable.
+4. What are anonymous functions? Higher order functions? Callback functions? First class? An anonymous function is a function without a 
+name,and these are not used very often. Higher order functions return a function or take other functions as arguments. Callback functions 
+are functions that are passed as an argument to another function in order to be called later.
+5. Define objects in JavaScript. Objects are a non-primitive data type, which means that they are able to store a collection of values in
+different formats. Objects are collections of properties, which means that it associates between keys and values.
