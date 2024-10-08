@@ -1,10 +1,10 @@
 /* question 6 */
-    const listItems = document.querySelectorAll('#list li');
-    listItems.forEach(item => {
-        item.addEventListener('click', () => {
-            listItems.forEach(li => li.style.color = 'blue');
-        });
+const listItems = document.querySelectorAll('#list li');
+listItems.forEach(item => {
+    item.addEventListener('click', () => {
+        listItems.forEach(li => li.style.color = 'blue');
     });
+});
 
     /* question 7 */
     const cats = [
@@ -66,31 +66,31 @@
         },
     ];
 
-    const catsList = document.getElementById('cats-list');
-    cats.forEach(cat => {
-        const li = document.createElement('li');
-        li.textContent = cat.name;
-        catsList.appendChild(li);
-    });
+const catsList = document.getElementById('cats-list');
+cats.forEach(cat => {
+    const li = document.createElement('li');
+    li.textContent = cat.name;
+    catsList.appendChild(li);
+});
 
     /* question 8 */
-    const form = document.getElementById('form');
-    const input = document.getElementById('input');
-    const messageDiv = document.getElementById('message');
+const form = document.getElementById('form');
+const input = document.getElementById('input');
+const messageDiv = document.getElementById('message');
 
-    form.addEventListener('submit', (event) => {
-        event.preventDefault();
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
 
-        const inputValue = input.value.trim();
-        console.log(inputValue);
+    const inputValue = input.value.trim();
+    console.log(inputValue);
 
         /* question 9 */
-        if (inputValue === '') {
-            messageDiv.textContent = 'Please Provide a Value';
-            messageDiv.className = 'error';
-        /* question 10 */
-        } else {
-            messageDiv.textContent = 'Success';
-            messageDiv.className = 'success';
-        }
-    });
+    if (inputValue === '') {
+        messageDiv.textContent = 'Please Provide a Value';
+        messageDiv.className = 'error';
+    /* question 10 */
+    } else {
+        messageDiv.textContent = 'Success';
+        messageDiv.className = 'success';
+    }
+});
