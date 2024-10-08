@@ -89,7 +89,8 @@ form.addEventListener('submit', (event) => {
         messageDiv.textContent = 'Please Provide a Value';
         messageDiv.className = 'error';
     /* question 10 */
-    } else {
+    } 
+    else {
         messageDiv.textContent = 'Success';
         messageDiv.className = 'success';
     }
