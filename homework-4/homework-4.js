@@ -74,8 +74,8 @@
     });
 
     /* question 8 */
-    const form = document.getElementById('cats-form');
-    const input = document.getElementById('cats-input');
+    const form = document.getElementById('form');
+    const input = document.getElementById('input');
     const messageDiv = document.getElementById('message');
 
     form.addEventListener('submit', (event) => {
