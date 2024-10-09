@@ -1,0 +1,24 @@
+{
+"recipes":[
+    {
+        "title": "Step 1",
+        "description": "Get a bowl and spoon",
+        "id": 1
+    },
+    {
+       "title": "Step 2",
+        "description": "Pour the cereal into the bowl",
+        "id": 2 
+    },
+    {
+        "title": "Step 3",
+        "description": "Pour the milk into the bowl",
+        "id": 3 
+    },
+    {
+        "title": "Step 4",
+        "description": "Use the spoon and mix it all together",
+        "id": 4 
+    }
+]
+}

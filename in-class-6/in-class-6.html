@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AJAX</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <h1>Cereal Recipe</h1>
+    </body>
+<script>
+    $.get({
+        url: 'http://localhost:3000/recipes',
+        success: function (data) {
+            console.log(data);
+            }
+        });
+</script>
