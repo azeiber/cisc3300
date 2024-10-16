@@ -1,0 +1,28 @@
+1. What is HTTP? What are the different HTTP request methods and how do they differ? HTTP is a
+protocol responsible for how the internet handles communication between clients and servers. This
+is done by requests and responses. Requests are initiated by the recipient.
+2. What is an API? What is JSON? APIs are ways for two or more computer programs or components
+to communicate with each other. APIs can be accessed by using HTTP requests. JSON is JavaScript
+object notation and is an open standard file format that contains easily readable text to store 
+data objects. These data objects consist of attribute-value pairs and arrays.
+3. What is AJAX? What is meant by asynchronous code? AJAX makes websites and web applications 
+more responsive by exchaning data with a web server behind the scenes. Asynchronous means
+code means that multiple two or more events can occur at the same time, so asynchronus code
+means that it is possible to update parts of a webpage without reloading the entire page.
+4. What is REST and what are resources? REST is an architectural style of organizing code so
+that requests act in a standard way.
+If my application had a concept called posts and
+was designed in a RESTful way, what would the URI and HTTP request method be to:
+a. retrieve multiple posts
+URI: /posts HTTP: GET
+b. retrieve a single post
+URI: /posts{id} HTTP: GET
+c. save a post
+URI: /posts HTTP: GET
+d. update a post
+URI: /posts HTTP: PUR
+5. Define hoisting and closures in JS. Hoisting is when variables and functions are created
+before they are executed. This consists of a preparation phase which takes all variables and
+function and "hoists" them to the top of the execution. Each execution creates its own variable
+object. Closures are when a function is able to remember different variables and functions that
+are declared in the outer scope. Closures can be down only by looking up, not down.

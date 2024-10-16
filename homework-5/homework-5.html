@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <button id="ajax-get">
+        get temperature
+    </button>
+    <p id="temperature"></p>
+
+    <script>
+     $('#ajax-get').on('click', function () {
+        $.ajax({
+        url: `https://api.open-meteo.com/v1/forecast?latitude=40.7143&longitude=-74.006&current_weather=true`,
+        type: "GET",
+        dataType: "json",
+        success: function (data) {
+        const temperatureC = data.current_weather.temperature;
+        const temperatureF = Math.round(temperatureC * 9 / 5) + 32;
+        $('#temperature').html(`Current temperature: ${temperatureF}°F`);
+        console.log(data);
+        }
+        });
+    })
+    </script>
+</body>
+</html>
