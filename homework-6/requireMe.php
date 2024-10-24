@@ -1,0 +1,2 @@
+<?php
+    $requiredVariable = "hi";

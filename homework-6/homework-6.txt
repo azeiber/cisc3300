@@ -1,0 +1,15 @@
+1. What is PHP? What do server side languages do in web development? PHP is an interpreted
+programming language used to build webpages. Server side languages process user input and interact
+with other servers.
+2. What are some examples of how PHP and JavaScript are alike and how they differ? Both JS and PHP
+are similar to each other because they are dynamic and weakly typed. JavaScript is a client-side
+language while PHP is a server-side language.
+3. Why pick PHP over another server side scripting language? PHP has a very simple syntax, so it is
+easy to learn and apply it quickly.
+4. What’s the difference between the include and require keywords in PHP? The include and require
+statement both take all text and copy it into the file that uses the include (or require) statement.
+If the file is not found the include statement will throw an error, but with require it will stop.
+a. What would happen if you tried to use a variable from a file that hasn’t been
+included yet? If you use include it will throw and error and with require it wil stop.
+5. Compare and contrast echo and var_dump. Echo outputs the value and var_dump 
+outputs the value and also the type.
