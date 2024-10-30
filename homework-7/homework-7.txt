@@ -1,0 +1,55 @@
+1. What is a class? What is an object? What is OOP? A class is a template for creating objects, and
+this is required for PHP, unlike JavaScript. Objects are an instance of a class. OOP stands for
+object oriented programming, which is where code is organized arounf objects, which contain important
+data and functions.
+2. Why use an abstract class in OOP? Abstract classes are useful when needing the parent to create
+defaults for methods. They leave out certain details that are to be implemented by derived classes.
+3. What are superglobals in PHP, what are some examples of data they provide? This means that the
+variable is available in all scopes throughout a script. One example of data is a superglobal array,
+which can be used in many different ways, such as giving us a local host URI or giving us our
+request method.
+4. What are the two steps to setting up and using a class via namespaces? Step 1 is to define a
+namespace in the class to be used. Step 2 is that we can either import the class into the current
+namespace with the use keyword, or type out the full namespace everytime we want to use the class.
+5. What is MVC? Detail the different parts. MVC is a design pattern that separates an application
+into three main logical components. The  first is the model, and this corresponds to all of the data
+related logic that the user works with. The second part is the view, which is used for all of the UI
+logic of the application. The final part is the controller, which enables the connection between
+the views and models. It simply tells the model what to do and processes all requests.
+6. Create a class that has:
+a. a constructor that sets some properties
+b. getters and setters to set and return those properties
+class Dog {
+    public $breed;
+    public $name;
+
+    //constructor
+    public function __construct($breed, $name) {
+        $this->breed = $breed;
+        $this->name = $name; 
+
+    // breed getter
+    public function getBreed() {
+        return $this->breed;
+    }
+
+    // breed setter
+    public function setBreed($breed) {
+        $this->breed = $breed;
+    }
+
+    // name getter
+    public function getName() {
+        return $this->name;
+    }
+
+    // name setter
+    public function setName($name) {
+        $this->name = $name;
+    }
+}
+7. Add a static method to your class.
+    // static method
+    public function speak() {
+        return "Woof!";
+    }
