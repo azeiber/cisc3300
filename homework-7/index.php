@@ -1,14 +1,18 @@
 <?php
+
 require_once 'controllers/UserController.php';
-require_once 'models/usermodel.php';
+require_once 'models/UserModel.php';
 
 use controllers\UserController;
 
 $controller = new UserController();
 
-if ($_SERVER['REQUEST_URI'] === '/users' || $_SERVER['REQUEST_METHOD'] === 'GET') {
+if ($_SERVER['REQUEST_URI'] === true || $_SERVER['REQUEST_METHOD'] === 'GET') {
     $controller->getUsersAsJSON();
-} else {
+} 
+else {
     $controller->showHTMLPage();
 }
 ?>
+
+
