@@ -1,0 +1,31 @@
+Write a query string with 2 values for www.example.com
+www.example.com?name=Alexa&age=21
+2. What is meant by escaping a character? Escaping an HTML character stops the browser
+HTML interpreter from treating it as HTML.
+3. What are the following HTTP status and their meanings:
+a. 200: OK (request was successful)
+b. 400: Bad Request (server cannot understand the request)
+c. 401: Unauthorized (missing or invalid credentials)
+d. 403: Forbidden (server understands the request but will not authorize it)
+e. 404: Not Found (resource was not found)
+f. 500: Internal Server Error (server encountered an unexpected error)
+4. Why do we need to validate data? Validating data is important because if the data
+from the front end is not checked and verified, it can break things
+5. What are sessions and cookies? What do they do? Cookies are text files that store
+data about users for specific websites and browsers. Sessions are similar because
+they are text files, but they store information about a user on the server, not 
+the website or browser.
+6. Create some kind of expectation in a try block, throw an exception with a custom
+message in the catch block
+<?php
+try {
+    // Expectation: expect a positive number for $num
+    $num = -5;  // Example input that doesn't meet the expectation
+
+    if ($num <= 0) {
+        throw new Exception("Input must be a positive number.");
+    }
+} catch (Exception $e) {
+    echo "Exception: ($num) is not greater than 0.";
+}
+?>
